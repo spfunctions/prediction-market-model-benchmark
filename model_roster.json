@@ -1,0 +1,90 @@
+{
+  "verified_at": "2026-05-05",
+  "policy": "Same roster as spfunctions/major-model-benchmark for apples-to-apples domain transfer comparisons.",
+  "models": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "class": "frontier",
+      "status": "api",
+      "source": "https://developers.openai.com/api/docs/models"
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-7",
+      "class": "frontier",
+      "status": "api",
+      "source": "https://platform.claude.com/docs/en/about-claude/models/overview"
+    },
+    {
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+      "class": "frontier",
+      "status": "preview-api-announced",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+    },
+    {
+      "provider": "xai",
+      "model": "grok-4.3",
+      "class": "frontier",
+      "status": "api",
+      "source": "https://docs.x.ai/overview"
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "class": "frontier-open-weight",
+      "status": "api-open-weights",
+      "source": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "provider": "mistral",
+      "model": "mistral-medium-3.5",
+      "class": "frontier-open-weight",
+      "status": "api-open-weights",
+      "source": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
+    },
+    {
+      "provider": "cohere",
+      "model": "command-a-reasoning-08-2025",
+      "class": "enterprise-reasoning",
+      "status": "api",
+      "source": "https://docs.cohere.com/docs/command-a-reasoning/"
+    },
+    {
+      "provider": "alibaba",
+      "model": "qwen3.6-plus",
+      "class": "frontier",
+      "status": "api",
+      "source": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model/"
+    },
+    {
+      "provider": "moonshot",
+      "model": "kimi-k2.6",
+      "class": "frontier-open-weight",
+      "status": "api-open-weights",
+      "source": "https://platform.kimi.ai/docs/models"
+    },
+    {
+      "provider": "minimax",
+      "model": "MiniMax-M2.7",
+      "class": "frontier-agentic",
+      "status": "api",
+      "source": "https://platform.minimax.io/docs/api-reference/api-overview"
+    },
+    {
+      "provider": "zai",
+      "model": "glm-5",
+      "class": "frontier-open-weight",
+      "status": "api-open-weights",
+      "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5.html"
+    },
+    {
+      "provider": "meta",
+      "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+      "class": "open-weight",
+      "status": "open-weights-partner-hosted",
+      "source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+    }
+  ]
+}

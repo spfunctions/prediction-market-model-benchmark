@@ -1,0 +1,14 @@
+[project]
+name = "sf-prediction-market-model-benchmark"
+version = "0.1.0"
+description = "SimpleFunctions benchmark harness for latest major AI models on prediction-market tasks."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"

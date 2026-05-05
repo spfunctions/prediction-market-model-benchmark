@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PredictionMarketBenchmarkResult",
+  "type": "object",
+  "required": ["run_id", "model", "task_id", "status", "output", "score", "metadata"],
+  "additionalProperties": false,
+  "properties": {
+    "run_id": { "type": "string" },
+    "model": { "type": "string" },
+    "task_id": { "type": "string" },
+    "status": { "enum": ["not_run", "ok", "error"] },
+    "output": { "type": ["string", "null"] },
+    "score": { "type": ["number", "null"] },
+    "metadata": { "type": "object" }
+  }
+}

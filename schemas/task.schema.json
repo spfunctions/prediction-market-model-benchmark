@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PredictionMarketBenchmarkTask",
+  "type": "object",
+  "required": ["id", "category", "prompt", "expected", "scoring"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "category": { "type": "string", "minLength": 2 },
+    "prompt": { "type": "string", "minLength": 1 },
+    "expected": { "type": "object" },
+    "scoring": { "type": "object" },
+    "metadata": { "type": "object" }
+  }
+}
